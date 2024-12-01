@@ -1,0 +1,6 @@
+module Pods_DepositCalculatorApp {
+  umbrella header "Pods-DepositCalculatorApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

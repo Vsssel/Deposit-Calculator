@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B82F5FDB2CFC57AB0020EEC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82F5FDA2CFC57AB0020EEC6 /* AppDelegate.swift */; };
+		B82F5FDD2CFC57AB0020EEC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82F5FDC2CFC57AB0020EEC6 /* SceneDelegate.swift */; };
+		B82F5FE22CFC57AB0020EEC6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B82F5FE12CFC57AB0020EEC6 /* Base */; };
+		B82F5FE52CFC57AB0020EEC6 /* DepositCalculatorApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B82F5FE32CFC57AB0020EEC6 /* DepositCalculatorApp.xcdatamodeld */; };
+		B82F5FE72CFC57AC0020EEC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B82F5FE62CFC57AC0020EEC6 /* Assets.xcassets */; };
+		B82F5FEA2CFC57AC0020EEC6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B82F5FE92CFC57AC0020EEC6 /* Base */; };
+		B82F5FF42CFC582F0020EEC6 /* Deposit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82F5FF32CFC582F0020EEC6 /* Deposit.swift */; };
+		B82F5FF62CFC586F0020EEC6 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82F5FF52CFC586F0020EEC6 /* Cell.swift */; };
+		B82F5FF92CFC58A80020EEC6 /* DepositViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82F5FF82CFC58A80020EEC6 /* DepositViewModel.swift */; };
+		B82F5FFB2CFC58C30020EEC6 /* DepositViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82F5FFA2CFC58C30020EEC6 /* DepositViewController.swift */; };
+		B82F5FFD2CFC58F80020EEC6 /* ConfigurableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82F5FFC2CFC58F80020EEC6 /* ConfigurableCell.swift */; };
+		CA25F148CBF59AD6FA4981DD /* libPods-DepositCalculatorApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 298A06C93D2522BDB3A26BB6 /* libPods-DepositCalculatorApp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		080D8A04CBBE61C783E70203 /* Pods-DepositCalculatorApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DepositCalculatorApp.debug.xcconfig"; path = "Target Support Files/Pods-DepositCalculatorApp/Pods-DepositCalculatorApp.debug.xcconfig"; sourceTree = "<group>"; };
+		298A06C93D2522BDB3A26BB6 /* libPods-DepositCalculatorApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DepositCalculatorApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FEB4DF69384BCD49BAAC2C /* Pods-DepositCalculatorApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DepositCalculatorApp.release.xcconfig"; path = "Target Support Files/Pods-DepositCalculatorApp/Pods-DepositCalculatorApp.release.xcconfig"; sourceTree = "<group>"; };
+		B82F5FD72CFC57AB0020EEC6 /* DepositCalculatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DepositCalculatorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82F5FDA2CFC57AB0020EEC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B82F5FDC2CFC57AB0020EEC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B82F5FE12CFC57AB0020EEC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B82F5FE42CFC57AB0020EEC6 /* DepositCalculatorApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DepositCalculatorApp.xcdatamodel; sourceTree = "<group>"; };
+		B82F5FE62CFC57AC0020EEC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B82F5FE92CFC57AC0020EEC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B82F5FEB2CFC57AC0020EEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B82F5FF32CFC582F0020EEC6 /* Deposit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deposit.swift; sourceTree = "<group>"; };
+		B82F5FF52CFC586F0020EEC6 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		B82F5FF82CFC58A80020EEC6 /* DepositViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositViewModel.swift; sourceTree = "<group>"; };
+		B82F5FFA2CFC58C30020EEC6 /* DepositViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositViewController.swift; sourceTree = "<group>"; };
+		B82F5FFC2CFC58F80020EEC6 /* ConfigurableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B82F5FD42CFC57AB0020EEC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA25F148CBF59AD6FA4981DD /* libPods-DepositCalculatorApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		179A5B1B67CEEA37206B070E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				080D8A04CBBE61C783E70203 /* Pods-DepositCalculatorApp.debug.xcconfig */,
+				32FEB4DF69384BCD49BAAC2C /* Pods-DepositCalculatorApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B82F5FCE2CFC57AB0020EEC6 = {
+			isa = PBXGroup;
+			children = (
+				B82F5FD92CFC57AB0020EEC6 /* DepositCalculatorApp */,
+				B82F5FD82CFC57AB0020EEC6 /* Products */,
+				179A5B1B67CEEA37206B070E /* Pods */,
+				E2C724D8AD485477BE544DD3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B82F5FD82CFC57AB0020EEC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B82F5FD72CFC57AB0020EEC6 /* DepositCalculatorApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B82F5FD92CFC57AB0020EEC6 /* DepositCalculatorApp */ = {
+			isa = PBXGroup;
+			children = (
+				B82F5FF72CFC588F0020EEC6 /* ViewModel */,
+				B82F5FF22CFC58260020EEC6 /* Model */,
+				B82F5FF12CFC581F0020EEC6 /* View */,
+				B82F5FDA2CFC57AB0020EEC6 /* AppDelegate.swift */,
+				B82F5FDC2CFC57AB0020EEC6 /* SceneDelegate.swift */,
+				B82F5FE02CFC57AB0020EEC6 /* Main.storyboard */,
+				B82F5FE62CFC57AC0020EEC6 /* Assets.xcassets */,
+				B82F5FE82CFC57AC0020EEC6 /* LaunchScreen.storyboard */,
+				B82F5FEB2CFC57AC0020EEC6 /* Info.plist */,
+				B82F5FE32CFC57AB0020EEC6 /* DepositCalculatorApp.xcdatamodeld */,
+			);
+			path = DepositCalculatorApp;
+			sourceTree = "<group>";
+		};
+		B82F5FF12CFC581F0020EEC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B82F5FFA2CFC58C30020EEC6 /* DepositViewController.swift */,
+				B82F5FFC2CFC58F80020EEC6 /* ConfigurableCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B82F5FF22CFC58260020EEC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B82F5FF32CFC582F0020EEC6 /* Deposit.swift */,
+				B82F5FF52CFC586F0020EEC6 /* Cell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B82F5FF72CFC588F0020EEC6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B82F5FF82CFC58A80020EEC6 /* DepositViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E2C724D8AD485477BE544DD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				298A06C93D2522BDB3A26BB6 /* libPods-DepositCalculatorApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B82F5FD62CFC57AB0020EEC6 /* DepositCalculatorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B82F5FEE2CFC57AC0020EEC6 /* Build configuration list for PBXNativeTarget "DepositCalculatorApp" */;
+			buildPhases = (
+				4D93D84E47C53D7ED6C868A2 /* [CP] Check Pods Manifest.lock */,
+				B82F5FD32CFC57AB0020EEC6 /* Sources */,
+				B82F5FD42CFC57AB0020EEC6 /* Frameworks */,
+				B82F5FD52CFC57AB0020EEC6 /* Resources */,
+				30A2B5B411B777F7AB070728 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DepositCalculatorApp;
+			productName = DepositCalculatorApp;
+			productReference = B82F5FD72CFC57AB0020EEC6 /* DepositCalculatorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B82F5FCF2CFC57AB0020EEC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B82F5FD62CFC57AB0020EEC6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = B82F5FD22CFC57AB0020EEC6 /* Build configuration list for PBXProject "DepositCalculatorApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B82F5FCE2CFC57AB0020EEC6;
+			productRefGroup = B82F5FD82CFC57AB0020EEC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B82F5FD62CFC57AB0020EEC6 /* DepositCalculatorApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B82F5FD52CFC57AB0020EEC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82F5FE72CFC57AC0020EEC6 /* Assets.xcassets in Resources */,
+				B82F5FEA2CFC57AC0020EEC6 /* Base in Resources */,
+				B82F5FE22CFC57AB0020EEC6 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30A2B5B411B777F7AB070728 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DepositCalculatorApp/Pods-DepositCalculatorApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DepositCalculatorApp/Pods-DepositCalculatorApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DepositCalculatorApp/Pods-DepositCalculatorApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D93D84E47C53D7ED6C868A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DepositCalculatorApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B82F5FD32CFC57AB0020EEC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82F5FE52CFC57AB0020EEC6 /* DepositCalculatorApp.xcdatamodeld in Sources */,
+				B82F5FF42CFC582F0020EEC6 /* Deposit.swift in Sources */,
+				B82F5FFD2CFC58F80020EEC6 /* ConfigurableCell.swift in Sources */,
+				B82F5FDB2CFC57AB0020EEC6 /* AppDelegate.swift in Sources */,
+				B82F5FF92CFC58A80020EEC6 /* DepositViewModel.swift in Sources */,
+				B82F5FFB2CFC58C30020EEC6 /* DepositViewController.swift in Sources */,
+				B82F5FDD2CFC57AB0020EEC6 /* SceneDelegate.swift in Sources */,
+				B82F5FF62CFC586F0020EEC6 /* Cell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B82F5FE02CFC57AB0020EEC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B82F5FE12CFC57AB0020EEC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B82F5FE82CFC57AC0020EEC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B82F5FE92CFC57AC0020EEC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B82F5FEC2CFC57AC0020EEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B82F5FED2CFC57AC0020EEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B82F5FEF2CFC57AC0020EEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 080D8A04CBBE61C783E70203 /* Pods-DepositCalculatorApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FH6ZF6KTY7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DepositCalculatorApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.Assel.DepositCalculatorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B82F5FF02CFC57AC0020EEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32FEB4DF69384BCD49BAAC2C /* Pods-DepositCalculatorApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FH6ZF6KTY7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DepositCalculatorApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.Assel.DepositCalculatorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B82F5FD22CFC57AB0020EEC6 /* Build configuration list for PBXProject "DepositCalculatorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B82F5FEC2CFC57AC0020EEC6 /* Debug */,
+				B82F5FED2CFC57AC0020EEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B82F5FEE2CFC57AC0020EEC6 /* Build configuration list for PBXNativeTarget "DepositCalculatorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B82F5FEF2CFC57AC0020EEC6 /* Debug */,
+				B82F5FF02CFC57AC0020EEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B82F5FE32CFC57AB0020EEC6 /* DepositCalculatorApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B82F5FE42CFC57AB0020EEC6 /* DepositCalculatorApp.xcdatamodel */,
+			);
+			currentVersion = B82F5FE42CFC57AB0020EEC6 /* DepositCalculatorApp.xcdatamodel */;
+			path = DepositCalculatorApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B82F5FCF2CFC57AB0020EEC6 /* Project object */;
+}
