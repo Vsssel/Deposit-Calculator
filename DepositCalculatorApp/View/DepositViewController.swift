@@ -99,14 +99,12 @@ class DepositViewController: UIViewController, UITableViewDataSource {
         let selectedCurrency = currencySegmentedControl.titleForSegment(at: currencySegmentedControl.selectedSegmentIndex) ?? "Tenge"
         let replenishmentText = replenishmentTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines)
         
-        // Default to zero if amount is empty
         let amount = Double(amountText ?? "") ?? 0.0
         let term = Int(termText?.replacingOccurrences(of: " mon", with: "") ?? "3") ?? 3
         let replenishment = Double(replenishmentText ?? "") ?? 0.0
         
         viewModel.configureDeposit(amount: amount, term: term, currency: selectedCurrency, monthlyReplenishment: replenishment)
         
-        // Calculate and update the result data
         let totalReturn = viewModel.getTotalReturn()
         resultData = [
             "Deposit Amount: \(amount) \(selectedCurrency)",
